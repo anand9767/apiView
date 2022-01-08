@@ -12,7 +12,7 @@ class StudentModelViewSet(viewsets.ModelViewSet):
     queryset = Student.objects.all()
     serializer_class = StudentSerializer
 
-
+#test
 # class StudentList(ListAPIView):   #vid 15
 #     queryset = Student.objects.all()
 #     serializer_class = StudentSerializer
